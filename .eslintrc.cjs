@@ -21,8 +21,8 @@ module.exports = {
     'no-restricted-imports': [
       'error',
       {
-        patterns: ['@mui/*/*/*']
-      }
+        patterns: ['@mui/*/*/*'],
+      },
     ],
 
     // Common
@@ -35,13 +35,13 @@ module.exports = {
     'space-before-blocks': ['error', 'always'],
     'object-curly-spacing': [1, 'always'],
     indent: ['warn', 2],
-    // 'semi': [1, 'never'],
+    // 'semi': [1, 'never'], // Dấu `;` cuối câu
     quotes: ['error', 'single'],
     'array-bracket-spacing': 1,
     'linebreak-style': 0,
     'no-unexpected-multiline': 'warn',
     'keyword-spacing': 1,
-    'comma-dangle': 1,
+    'comma-dangle': 0, // Dấu `,` cuối câu
     'comma-spacing': 1,
     'arrow-spacing': 1,
   },
