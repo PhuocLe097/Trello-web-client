@@ -6,14 +6,14 @@ const theme = extendTheme({
     light: {
       palette: {
         primary: {
-          main: '#ff5252',
+          main: '#1976d2',
         },
       },
     },
     dark: {
       palette: {
         primary: {
-          main: '#000',
+          main: '#fff',
         },
       },
     },
